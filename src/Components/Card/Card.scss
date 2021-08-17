@@ -1,0 +1,57 @@
+@import '../../globalVariables';
+
+
+.card-container{
+    width: 340px;
+    height: 139px;
+    padding: 1rem;
+    background-color: $secundary-bg;
+    border: 1px solid $card-border;
+    position: relative;
+    margin: 10px;
+    transition: background-color .3s ease-in;
+
+    h2{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 1px 0px 4px 0px;
+        line-height: 32px;
+        opacity: 80%;
+    }
+
+    button{
+        position: absolute;
+        top: 14px;
+        right: 16px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .card-property{
+        display: flex;
+
+        img{
+            padding: 0px 10px 0px 0px;
+            opacity: 30%;
+        }
+        p{
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+
+    &:hover{
+        background-color: $hover-color;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 620px) {
+    .card-container{
+        width: 100%;
+    }
+}

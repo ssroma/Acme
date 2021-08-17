@@ -1,0 +1,19 @@
+@import '../../globalVariables';
+
+.location-container{
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: $main-bg;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .location-container{
+        padding: 1rem .4rem;
+    }
+}
+

@@ -1,0 +1,17 @@
+@import '../../globalVariables';
+
+.generic-button{
+    padding: .3rem;
+    border: none;
+    
+}
+
+.generic-button-round{
+    border-radius: 50%;
+    background-color: $main-bg;
+}
+
+.generic-button-square{
+    border-radius: 4rem;
+    background-color: rgba(55, 178, 77, 1);
+}

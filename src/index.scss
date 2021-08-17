@@ -1,0 +1,32 @@
+@import './globalVariables';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  //font-family: Marfa, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  background-color: $main-bg;
+}
+
+h1{
+  color: $h1-color;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  opacity: 80%;
+}
+
+h3{
+  font-size: 16px
+}
+
+p{
+  font-size: 14px;
+  opacity: 65%
+}

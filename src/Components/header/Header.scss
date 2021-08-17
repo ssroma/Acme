@@ -1,0 +1,17 @@
+@import '../../globalVariables';
+
+.header-container{
+    width: 100%;
+    height: $header-height;
+    background-color: $main-bg;
+    border-bottom: 2px solid $card-border;
+    padding: 19px 0px 10px 30px;
+    
+    h1{
+        font-weight: 600;
+    }
+    h2{
+        color: $h3-color;
+    }
+}
+
