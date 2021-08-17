@@ -5,7 +5,7 @@ This project was a small challenge proposed by TShift - React code test
 ## Task Description: 
 In our real TShift frontend application we have an "All locations" page where we display all the locations where company users are located. This task is designed to be a simple version of a real page we use and to give you a feeling of what your job will look like in TShift. On the other hand we will be able to check how you handle a real requirement. This is the simplified "All locations" page:
     
-    https://user-images.githubusercontent.com/50903242/109963912-40221180-7ced-11eb-9bf4-befe6595a1b1.png
+    ![All locations](https://user-images.githubusercontent.com/50903242/109963912-40221180-7ced-11eb-9bf4-befe6595a1b1.png)
 
 Implement small react application that will display "All locations" page. Clicking on a specific location should display a modal with all the properties of that single location. Modal should be closable.
 
@@ -13,8 +13,8 @@ Locations on main "All locations" page are displayed with a card showing some of
 
 ## Resources: 
 
-    [API Endpoint]https://6033c4d8843b15001793194e.mockapi.io/api/locations
-    [Provided Design]https://www.sketch.com/s/e1647b30-8066-43dc-bbf3-5b81d5a01bb2
+    [API Endpoint](https://6033c4d8843b15001793194e.mockapi.io/api/locations)
+    [Provided Design](https://www.sketch.com/s/e1647b30-8066-43dc-bbf3-5b81d5a01bb2)
 
 
 ## Rules:
