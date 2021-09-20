@@ -1,12 +1,16 @@
+import './App.scss';
 import Location from './Components/Locations/Locations';
 import Header from './Components/header/Header';
-import './App.scss';
+import {CardContextProvider, useCardContext} from './Context/LocationCardContext';
+
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Location/>
+      <CardContextProvider>
+        <Location/>
+      </CardContextProvider>
     </div>
   );
 }
